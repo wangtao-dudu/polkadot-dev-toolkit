@@ -28,12 +28,30 @@ The Polkadot Developer Toolkit aims to lower the barrier for new developers ente
 - Additional language support (Python API version for backend integration).
 - Enhancements based on developer feedback.
 
-## **3. Technical Architecture**
-### **Tech Stack**:
+## **3. Technical Implementation**
+### **Architecture**
 - **Frontend**: JavaScript (React/Vue)
 - **Blockchain SDK**: Polkadot.js API
 - **Smart Contracts**: ink! (Rust-based smart contracts for Substrate)
 - **Testing**: Mocha/Chai for JavaScript API, cargo test for Rust contracts
+
+### **Implementation Plan**
+#### **Phase 1: API Development & Documentation (Month 1-2)**
+- Develop a JavaScript wrapper for Polkadot.js API.
+- Provide functions for common blockchain operations (e.g., fetching balances, querying contracts, submitting transactions).
+- Create developer documentation with examples.
+- Release an initial version of the toolkit for community feedback.
+
+#### **Phase 2: Smart Contract Examples & Testing Suite (Month 3-4)**
+- Develop example ink! smart contracts.
+- Create detailed deployment guides for different use cases.
+- Build an automated testing suite for the toolkit and smart contracts.
+
+#### **Phase 3: Community Engagement & Expansion (Month 5-6)**
+- Publish video tutorials and developer blog posts.
+- Set up a community forum or Discord server for developer discussions.
+- Gather community feedback and enhance the toolkit accordingly.
+- Expand API support to include additional Polkadot parachains.
 
 ## **4. Budget Breakdown**
 | Phase                  | Deliverables                                      | Budget  |
@@ -46,30 +64,12 @@ The Polkadot Developer Toolkit aims to lower the barrier for new developers ente
 ## **5. Milestones & Timeline**
 | Milestone            | Expected Timeframe | Deliverables |
 |----------------------|-------------------|-------------|
-| Initial Toolkit     | 1 month            | API wrapper, Docs |
-| Smart Contracts     | 2 months           | ink! Examples, Tests |
-| Community Support   | 3 months           | Tutorials, Guides, Expansion |
+| Initial Toolkit     | 1-2 months         | API wrapper, Docs |
+| Smart Contracts     | 3-4 months         | ink! Examples, Tests |
+| Community Support   | 5-6 months         | Tutorials, Guides, Expansion |
 
 ## **6. Future Vision**
 - Extend support for more Polkadot parachains.
 - Create an interactive playground for developers to test transactions and contracts.
 - Enable Web3 integration with external tools (e.g., AI-driven contract auditing).
-
-## **7. Applying for the Grant**
-### **Submission Process**:
-1. **Fork the Web3 Foundation Grants repository** on GitHub.
-2. Create a new folder under `applications/` and add this document.
-3. Submit a pull request (PR) following the Web3 Foundation template.
-4. Engage with reviewers and refine based on feedback.
-
----
-
-## **Next Steps**
-1. Upload this proposal to the GitHub repository.
-2. Follow the Web3 Foundation submission guide to create the grant request.
-3. Monitor responses and iterate as needed to secure funding.
-
----
-
-This proposal aligns with the Web3 Foundation's mission to enhance Polkadot development accessibility. We look forward to contributing to the ecosystem and receiving feedback from the community.
 
