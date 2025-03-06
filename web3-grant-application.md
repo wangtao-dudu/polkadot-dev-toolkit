@@ -53,7 +53,23 @@ The Polkadot Developer Toolkit aims to lower the barrier for new developers ente
 - Gather community feedback and enhance the toolkit accordingly.
 - Expand API support to include additional Polkadot parachains.
 
-## **4. Budget Breakdown**
+## **4. Technical Justification & Prior Work**
+### **Why This Project is Needed**
+- Existing Polkadot.js API is powerful but complex for beginners.
+- Most current tools lack structured onboarding for new developers.
+- Smart contract development in ink! still has a steep learning curve.
+
+### **Existing Work & Contributions**
+- The project will build upon the existing Polkadot.js library, adding user-friendly abstractions.
+- We will reference open-source repositories and integrate best practices from the Substrate ecosystem.
+- A minimal working example demonstrating API interactions will be included in the initial repository.
+
+### **Long-Term Maintenance Commitment**
+- The project will be open-source and actively maintained on GitHub.
+- We plan to establish a developer community to encourage contributions.
+- Future funding sources could include premium API services or developer sponsorships.
+
+## **5. Budget Breakdown**
 | Phase                  | Deliverables                                      | Budget  |
 |------------------------|--------------------------------------------------|---------|
 | Core API & Docs       | JS API Wrapper, Tutorials, Demo                  | $5,000  |
@@ -61,14 +77,14 @@ The Polkadot Developer Toolkit aims to lower the barrier for new developers ente
 | Community Growth      | Video Guides, Expansion, Developer Support        | $5,000  |
 | **Total**             |                                                  | **$15,000** |
 
-## **5. Milestones & Timeline**
+## **6. Milestones & Timeline**
 | Milestone            | Expected Timeframe | Deliverables |
 |----------------------|-------------------|-------------|
 | Initial Toolkit     | 1-2 months         | API wrapper, Docs |
 | Smart Contracts     | 3-4 months         | ink! Examples, Tests |
 | Community Support   | 5-6 months         | Tutorials, Guides, Expansion |
 
-## **6. Future Vision**
+## **7. Future Vision**
 - Extend support for more Polkadot parachains.
 - Create an interactive playground for developers to test transactions and contracts.
 - Enable Web3 integration with external tools (e.g., AI-driven contract auditing).
